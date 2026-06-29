@@ -9,7 +9,7 @@ Original file is located at
 
 !pip install -q pyspark findspark
 
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSessionip
 
 spark = SparkSession.builder.appName("PySpark").getOrCreate()
 
