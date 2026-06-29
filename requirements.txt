@@ -1,0 +1,14 @@
+# Core dependency for Apache Spark
+pyspark==3.5.1
+
+# Utility to easily find Spark installation
+findspark==2.0.1
+
+# Data manipulation and analysis
+pandas==2.2.2
+
+# Arrow-based columnar data transfer (used internally by Spark)
+pyarrow==16.1.0
+
+# Jupyter/Colab notebook support
+notebook==7.2.1
